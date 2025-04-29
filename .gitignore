@@ -1,0 +1,46 @@
+
+# 编译文件
+*.obj
+*.out
+*.exe
+*.dll
+*.so
+*.a
+*.lib
+*.la
+*.lo
+
+# 临时文件
+*.log
+*.tmp
+*.swp
+*.bak
+*.d
+
+# 依赖文件
+*.depend
+*.dSYM/
+
+# 操作系统特定文件
+.DS_Store   # macOS 自动生成的文件
+Thumbs.db   # Windows 缩略图缓存
+desktop.ini # Windows 特定文件
+
+# 编译器生成的文件
+Makefile*
+CMakeFiles/
+CMakeCache.txt
+*.cmake
+*.vscode/
+
+# IDE 配置文件
+.idea/      # IntelliJ 或 Android Studio
+.vscode/    # Visual Studio Code 配置
+*.vs/       # Visual Studio 配置文件
+
+# Debug/Release 目录
+Debug/
+Release/
+
+# 如果你使用了 CMake，可能会有这些文件夹
+build/
